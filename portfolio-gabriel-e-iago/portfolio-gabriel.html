@@ -18,7 +18,8 @@
             <a href="#Idiomas">Idiomas</a>
             <a href="#Redes">Redes</a>
             <a href="#Contato">Contato</a>
-            <a href="#Navegacao">Navegação</a>
+            <a href="portfolio-iago.html"><strong>Portfólio do Iago</strong></a>
+            <a href="pagina-inicial.html"><strong>Página Inicial</strong></a>
         </nav>
     </header>
     <main>
@@ -32,13 +33,13 @@
                 <img src="imagens/foto-g-gabriel.png" alt="Imagem Flexível">
             </picture>
         </section>
-        <article>
+        <article id="Sobre">
             <!-- Uso de abbr para explicar siglas como Prodesp, ADS e Python. -->
-            <h2 id="Sobre">Quem é Gabriel?</h2>
+            <h2>Quem é Gabriel?</h2>
             <p>Gabriel de Albuquerque Vasconcelos é digitador de dados da <abbr title="Empresa de informática do Governo do Estado de São Paulo">Prodesp</abbr>. Com 19 anos, iniciou seus estudos na Faculdade Impacta, <br>escolhendo o curso de <abbr title="Análise e Desenvolvimento de Sistemas">ADS</abbr>. Em seu 1º semestre, para complementar seus estudos na sala de aula, realizou mais de 200h em cursos extracurriculares de linguagem <abbr title="Linguagem de Programação de alto nível">Python</abbr>.</p>
         </article>
-        <section>
-            <h2 id="Experiencia">Experiência</h2>
+        <section id="Experiencia">
+            <h2>Experiência</h2>
             <h3>Digitador</h3>
             <p>Prodesp - Terceirizado <br>maio de 2024 - o momento <br>São Paulo, Brasil - Presencial</p>
             <!-- Uso de listas não ordenadas para exemplicar as funções e rotinas do trabalho. -->
@@ -49,8 +50,8 @@
                 <li>Envio de folha de antecedentes à autoridade</li>
             </ul>
         </section>
-        <section>
-            <h2 id="Academico">Formação acadêmica</h2>
+        <section id="Academico">
+            <h2>Formação acadêmica</h2>
             <h3>Impacta Tecnologia</h3>
             <p>Curso Superior Tecnólogo em Análise e Desenvolvimento de Sistemas <br> agosto de 2024 - dezembro de 2026</p>
             <!-- Uso de listas para mostrar as tecnologias utilizadas no curso superior. -->
@@ -66,8 +67,8 @@
             <p>Curso técnico em Administração <br>fevereiro de 2020 - dezembro de 2022</p>
             <p>Curso técnico em administração integrado ao ensino médio</p>
         </section>
-        <section>
-            <h2 id="Certificados">Licenças e certificados</h2>
+        <section id="Certificados">
+            <h2>Licenças e certificados</h2>
             <ul>
                 <li>
                     <h3>Python</h3>
@@ -75,56 +76,63 @@
                     <ol type="i">
                         <!-- o parâmetro dowload junto ao formato .zip permite ao usuário baixar os certificados de Gabriel em seu computador. Dentro do arquivo .zip há mais de 1 certificado do respectivo curso. -->
                         <li><a href="certificados/huawei-basico-ao-avancado.zip" download="huawei-basico-ao-avancado.zip" type="application/zip">Huawei - básico ao avançado</a></li>
-                        <li><a href="certificados/curso-em-video-modulo-1-ao-3.zip" download="curso-em-video-modulo-1-ao-3.zip" type="applicattion/zip">Curso em Vídeo - mundo 1 ao 3</a></li>
+                        <li><a href="certificados/curso-em-video-modulo-1-ao-3.zip" download="curso-em-video-modulo-1-ao-3.zip" type="application/zip">Curso em Vídeo - mundo 1 ao 3</a></li>
                         <li><a href="certificados/impacta-6h.pdf" download="impacta-6h.pdf" type="application/pdf">Impacta</a></li>
                     </ol>
                 <li>
                     <h3>GitHub</h3>
-                </li>
-                    <a href="certificados/Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" download="Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" type="application/pdf">Curso em vídeo - Git e GitHub</a></li>
+                <li>
+                    <a href="certificados/Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" download="Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" type="application/pdf">Curso em vídeo - Git e GitHub</a>
                 <li>
                     <h3>HTML5 e CSS3</h3>
                 </li>
                     <a href="certificados/curso-html5-e-css3-modulo-1.pdf" download="curso-html5-e-css3-modulo-1.pdf" type="application/pdf">HTML5 e CSS3 - Mundo 1</a>
             </ul>
         </section>
-        <section>
-            <h2 id="Idiomas">Idiomas</h2>
+        <section id="Idiomas">
+            <h2>Idiomas</h2>
             <ul>
                 <li>Português - C2 </li>
                 <li>Francês - B1</li>
                 <li>Inglês - A1</li>
             </ul>
         </section>
-    </main>
-    <h2 id="Redes">Redes Sociais</h2>
-    <nav>
-        <ul type="disc">
-            <!-- o parâmetro _blank permite ao usuário entrar nas redes sociais em uma nova aba. -->
-            <li><a href="https://github.com/gabealbuquerque" target="_blank" rel="external">GitHub</a></li>
-            <li><a href="https://br.linkedin.com/in/gabrieldealbuquerquevasconcelos" target="_blank" rel="external">LinkedIn</a></li>
-            <li><a href="mailto:eugabrieldealbuquerque@gmail.com">Email</a></li>
-        </ul>
-    <h2 id="Contato">Entre em contato</h2> 
-    <form method="post" class="formCreate">
-        <!-- Através da tag form foi possível criar um formulário para o usuário entrar em contato com Gabriel. -->
-        <p>Preencha os campos abaixo para entrar em contato: </p> 
-        <label for="name">Nome</label>
-        <input type="text" placeholder="Digite o seu nome" id="name" required><br>
-        <label for="text">Assunto</label>
-        <input type="text" placeholder="Digite o assunto" id="assunto" required><br>
-        <label for="mensagem">Mensagem</label><br>
-        <textarea name="mensagem" id="mensagem" rows="4" required></textarea><br>
-        <button type="submit">Enviar</button>
-    </form>
-    </main>
-    <footer>
-        <h2 id="Navegacao">Navegue pelas páginas</h2>
+    <section id="Redes">
+        <h2>Redes Sociais</h2>
+        <nav>
             <ul>
-                <li><a href="portfolio-iago.html">Portfólio do Iago</a></li>
-                <li><a href="pagina-inicial.html">Página Inicial</a></li>
+                <!-- o parâmetro _blank permite ao usuário entrar nas redes sociais em uma nova aba. -->
+                <li><a href="https://github.com/gabealbuquerque" target="_blank" rel="external">GitHub</a></li>
+                <li><a href="https://br.linkedin.com/in/gabrieldealbuquerquevasconcelos" target="_blank" rel="external">LinkedIn</a></li>
+                <li><a href="mailto:eugabrieldealbuquerque@gmail.com">Email</a></li>
             </ul>
         </nav>
+    </section>
+    <section id="Contato">
+        <h2>Entre em contato</h2>
+        <form method="post" class="formCreate">
+            <!-- Através da tag form foi possível criar um formulário para o usuário entrar em contato com Gabriel. -->
+            <p>Preencha os campos abaixo para entrar em contato: </p>
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite o seu nome" id="name" required><br>
+            <label for="assunto">Assunto</label>
+            <input type="text" placeholder="Digite o assunto" id="assunto" required><br>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" rows="4" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    </main>
+    <footer>
+        <section id="Navegacao">
+            <h2>Navegue pelas páginas</h2>
+            <nav>
+                <ul>
+                    <li><a href="portfolio-iago.html">Portfólio do Iago</a></li>
+                    <li><a href="pagina-inicial.html">Página Inicial</a></li>
+                </ul>
+            </nav>
+        </section>
     </footer>
 </body>
 </html>
