@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Iago</title>
     <link rel="shortcut icon" href="imagens/imagens-impacta/icone-impacta-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/iago.css">
 </head>
 <body>
     <header>
+        <a href="pagina-inicial.html"><img src="imagens/imagens-impacta/logo-impacta-1.png" alt="Logo Faculdade Impacta Tecnologia" height="50px" width="180px"></a>
         <nav>
-            <a href="pagina-inicial.html"><img src="imagens/imagens-impacta/logo-impacta-1.png" alt="Logo Faculdade Impacta Tecnologia" height="50px" width="180px"></a>
             <a href="#Sobre">Sobre</a>
             <a href="portfolio-gabriel.html"><strong>Portfólio do Gabriel</strong></a>
             <a href="pagina-inicial.html"><strong>Página Inicial</strong></a>
@@ -20,7 +21,7 @@
     <main>
         <section id="Sobre">
             <h1>Iago Rozales Mahiques</h1>
-            <img src="imagens/imagens-iago/perfil-iago.jpg" alt="Foto de Iago" height="500px" width="400px">
+            <img src="imagens/imagens-iago/perfil-iago.jpg" alt="Foto de Iago" height="500px" width="400px" id="foto">
             <p>Iago esta cursando Analise e desenvolvimento de sistemas pela faculdade Impacta</p>
         </section>
     
@@ -39,7 +40,7 @@
         <section class="form">
             <h2>Formação Academia</h2>
             <h3>Faculdade Impacta</h3>
-            <h4>Analise e desenvolvimento de sistemas</h4>
+            <p>Analise e desenvolvimento de sistemas</p>
         </section>
     
         <section class="projetos">
@@ -47,9 +48,11 @@
             <ul>
                 <li>
                     <h3>Projeto 1</h3>
+                    <p>Descricao do projeto 1</p>
                 </li>
                 <li>
                     <h3>Projeto 2</h3>
+                    <p>Descricao do projeto 2</p>
                 </li>
             </ul>
         </section>
@@ -62,14 +65,14 @@
             <p>Espanhol</p>
         </section>
         <section class="redes">
-            <ul>
-                <li>
+            <ul id="redes">
+                <li class="imagens">
                     <a href=""><img src="imagens/imagens-iago/ig-iago.jpg" alt="Instagram" height="25px" height="25px"></a>
                 </li>
-                <li>
+                <li class="imagens">
                     <a href=""><img src="imagens/imagens-iago/lk-iago.jpg" alt="LinkedIn" height="25px" width="25px"></a>
                 </li>
-                <li>
+                <li class="imagens">
                     <a href=""><img src="imagens/imagens-iago/gh-iago.jpg" alt="Github" height="25px" width="25px"></a>
                 </li>
             </ul>
@@ -85,10 +88,10 @@
     <footer>
         <section id="Navegacao">
             <h2>Navegue pelas páginas</h2>
-            <nav>
-                <ul>
-                    <li><a href="portfolio-gabriel.html">Portfólio do Gabriel</a></li>
-                    <li><a href="pagina-inicial.html">Página Inicial</a></li>
+            <nav >
+                <ul id="pag-nav">
+                    <li class="paginas"><a href="portfolio-gabriel.html">Portfólio do Gabriel</a></li>
+                    <li class="paginas"><a href="pagina-inicial.html">Página Inicial</a></li>
                 </ul>
             </nav>
         </section>
