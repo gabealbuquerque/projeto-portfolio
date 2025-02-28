@@ -8,6 +8,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -32,10 +33,10 @@ header{
     
 }
 .imagens{
-    list-style-type: none;
+    margin-right: 10px;
 }
 li{
-    list-style-type: disc;
+    list-style-type: none;
 }
 main{
     margin-left: 20px;
@@ -67,8 +68,33 @@ p{
     width: 10%;
     display: flex;
     justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
 }
 .exp, .projetos, .idiomas, .redes, .contato{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.centro{
+    text-align: center;
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--color1);
+}
+#msg{
+    height: 50px;
 }
