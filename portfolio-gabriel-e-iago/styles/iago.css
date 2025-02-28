@@ -1,0 +1,100 @@
+:root{
+    --color1: #EEC643;
+    --color2: #141414;
+    --color3: #EEF0F2;
+    --color4: #0D21A1;
+    --color5: #E01A4F;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: var(--color5);
+}
+body{
+    background-color: var(--color3);
+    color: var(--color2);
+    
+}
+#foto{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.imagens{
+    margin-right: 10px;
+}
+li{
+    list-style-type: none;
+}
+main{
+    margin-left: 20px;
+    
+}
+nav{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Navegacao{
+    margin-left: 10px;
+}
+p{
+    color: #0D21A1;
+}
+.paginas{
+    list-style-type: none;
+    
+}
+#pag-nav{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#redes{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+.exp, .projetos, .idiomas, .redes, .contato{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.centro{
+    text-align: center;
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--color1);
+}
+#msg{
+    height: 50px;
+}
