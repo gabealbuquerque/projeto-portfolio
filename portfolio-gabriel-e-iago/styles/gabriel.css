@@ -1,0 +1,74 @@
+body {
+    background-color: #aba9bf36;
+    padding: 3px;
+    margin: 10px;
+}
+
+header, footer {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+p {
+    color: #4E598C;
+    text-align: justify;
+}
+
+a {
+    color: #4E598C;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #373D20;
+    text-align: center;
+}
+
+
+h3, h4 {
+    color: #5c5f46;
+}
+
+
+.lista, li {
+    color: #6b6850;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.link-portfolio {
+    color: #4E598C;
+}
+
+.form-titulo {
+    color: #2d311a;
+}
+
+.imagem-gabriel {
+   width: 300px;
+   height: 300px;
+   margin: 95px;
+}
+
+#experiencia {
+    background-color: #5c5f46;
+    border-radius: 8px;
+}
+
+#foto-impacta {
+    padding: 1px;
+    margin: 1px;
+}
+
+button {
+    padding: 3px;
+    margin: 3px;
+    background-color: #aba9bf00;
+    border: none;
+}
+

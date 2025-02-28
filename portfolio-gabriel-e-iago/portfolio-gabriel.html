@@ -5,38 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Gabriel</title>
     <link rel="shortcut icon" href="imagens/imagens-impacta/icone-impacta-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/gabriel.css">
 </head>
 <body>
     <header>
         <!-- Bloco de navegção dentro do cabeçalho -->
+        <a href="pagina-inicial.html"><img src="imagens/imagens-impacta/logo-impacta-1.png" alt="Logo Faculdade Impacta Tecnologia" height="50px" width="180px" id="foto-impacta"></a>
         <nav>
-            <a href="pagina-inicial.html"><img src="imagens/imagens-impacta/logo-impacta-1.png" alt="Logo Faculdade Impacta Tecnologia" height="50px" width="180px"></a>
-            <a href="#Sobre">Sobre</a>
-            <a href="#Experiencia">Experiência</a>
-            <a href="#Academico">Formação</a>
-            <a href="#Certificados">Certificados</a>
-            <a href="#Idiomas">Idiomas</a>
-            <a href="#Redes">Redes</a>
-            <a href="#Contato">Contato</a>
-            <a href="portfolio-iago.html"><strong>Portfólio do Iago</strong></a>
-            <a href="pagina-inicial.html"><strong>Página Inicial</strong></a>
+            <button><a href="#Experiencia">EXPERIÊNCIA</a></button>
+            <button><a href="#Academico">FORMAÇÃO</a></button>
+            <button><a href="#Certificados">CERTIFICADOS</a></button>
+            <button><a href="#Idiomas">IDIOMAS</a></button>
+            <button><a href="#Redes">REDES</a></button>
+            <button><a href="#Contato">CONTATO</a></button>
+            <button><a href="portfolio-iago.html">PORTFÓLIO DO IAGO</a></button>
+            <button><a href="pagina-inicial.html">PÁGINA INICIAL</a></button>
+            <buttom><a href="#Navegacao"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAStJREFUSEvt1L8rhVEcx/HXlWRSBoPZwKAMZLEwiI0/wB8gk102u0z+ANnZsLApMigDg9lgUAZJkvut59b19HjO87huGZzpnM7n83mfX9/T0OXW6HK+f0DyhNuP6ATzSUc1wTEWQ9oOuMRUNX9SFVnTecAYrtGXtJcL3jCB2zwgxuvY7hAQGTutjKJneorZH0LOMNfuLQIMZ9sbqAl5RhzzQwoQ8yvYqwkIz37eU1bJB1iqCDnEcpG2DDCIOwwlII8YxVNdQOgXcJQAREFFYRW2Kp/dLla/8cfcWtkCqgD6cdO89JFc0D3G8dopIPyTuEBPFvaRfQVXqUdQZQetjC1sZIPob6bCi76KMk9v89LPEaufwftvAyIvqjuCX6qE191B1cwvujp38DcBn00lJhnWAS3xAAAAAElFTkSuQmCC"/></a></buttom>
         </nav>
     </header>
     <main>
-        <hr>
         <section>
+            <hr>
             <h1>Portfólio - Gabriel</h1>
             <!-- Imagem flexível de Gabriel feita através da tag picture e source type -->
             <picture>
-                <source media="(max-width: 500px)" srcset="imagens/imagens-gabriel/foto-p-gabriel.png" type="image/png">
-                <source media="(max-width: 700px)" srcset="imagens/imagens-gabriel/foto-m-gabriel.png" type="image/png">
-                <img src="imagens/imagens-gabriel/foto-g-gabriel.png" alt="Imagem Flexível">
+                <source media="(max-width: 500px)" srcset="imagens/imagens-gabriel/foto-p-gabriel.png" type="image/png" class="imagem-gabriel">
+                <source media="(max-width: 700px)" srcset="imagens/imagens-gabriel/foto-m-gabriel.png" type="image/png" class="imagem-gabriel">
+                <img src="imagens/imagens-gabriel/foto-g-gabriel.png" alt="Imagem Flexível" class="imagem-gabriel">
             </picture>
         </section>
         <article id="Sobre">
             <!-- Uso de abbr para explicar siglas como Prodesp, ADS e Python. -->
             <h2>Quem é Gabriel?</h2>
-            <p>Gabriel de Albuquerque Vasconcelos é digitador de dados da <abbr title="Empresa de informática do Governo do Estado de São Paulo">Prodesp</abbr>. Com 19 anos, iniciou seus estudos na Faculdade Impacta, <br>escolhendo o curso de <abbr title="Análise e Desenvolvimento de Sistemas">ADS</abbr>. Em seu 1º semestre, para complementar seus estudos na sala de aula, realizou mais de 200h em cursos extracurriculares de linguagem <abbr title="Linguagem de Programação de alto nível">Python</abbr>.</p>
+            <p>Gabriel de Albuquerque Vasconcelos é digitador de dados da <abbr title="Empresa de informática do Governo do Estado de São Paulo" class="em-italico">Prodesp</abbr>. Com 19 anos, iniciou seus estudos na Faculdade Impacta, <br>escolhendo o curso de <abbr title="Análise e Desenvolvimento de Sistemas" class="em-italico">ADS</abbr>. Em seu 1º semestre, para complementar seus estudos na sala de aula, realizou mais de 200h em cursos extracurriculares de linguagem <abbr title="Linguagem de Programação de alto nível" class="em-italico">Python</abbr>.</p>
         </article>
         <section id="Experiencia">
             <h2>Experiência</h2>
@@ -71,24 +72,24 @@
             <h2>Licenças e certificados</h2>
             <ul>
                 <li>
-                    <h3>Python</h3>
+                    <h3 class="lista">Python</h3>
                 </li>
                     <ol type="i">
                         <!-- o parâmetro dowload junto ao formato .zip permite ao usuário baixar os certificados de Gabriel em seu computador. Dentro do arquivo .zip há mais de 1 certificado do respectivo curso. -->
-                        <li><a href="certificados/huawei-basico-ao-avancado.zip" download="huawei-basico-ao-avancado.zip" type="application/zip">Huawei - básico ao avançado</a></li>
-                        <li><a href="certificados/curso-em-video-modulo-1-ao-3.zip" download="curso-em-video-modulo-1-ao-3.zip" type="application/zip">Curso em Vídeo - mundo 1 ao 3</a></li>
-                        <li><a href="certificados/impacta-6h.pdf" download="impacta-6h.pdf" type="application/pdf">Impacta</a></li>
+                        <li>Huawei - básico ao avançado <a href="certificados/huawei-basico-ao-avancado.zip" download="huawei-basico-ao-avancado.zip" type="application/zip" class="lista"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMNJREFUSEvtlbENwjAQRV8KVqBEoqJKT8UKbAEzMAIjkEEyQCpqsgC0rEAB+pIjBSsmZ6wIoeQaK/L5v/vns5IxcGQD6zM+wNO11OzcnOiEJ0Dv0I68RSH7J2AXaF4B7L29N532mIYAM6AC1p7QGdgAj1SAzs+B2q36vgO5W31z0Q4aATmQE4Uql4Ou+BogseYu1PtQJAF6HwrwO8ANWFhKNORcgaXy2mO6BY7AyiDwKeUCHIDSByTqdh+P/R9EF/H/gBdz+CUZeOsyDwAAAABJRU5ErkJggg=="/></a></li>
+                        <li>Curso em Vídeo - mundo 1 ao 3 <a href="certificados/curso-em-video-modulo-1-ao-3.zip" download="curso-em-video-modulo-1-ao-3.zip" type="application/zip" class="lista"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMNJREFUSEvtlbENwjAQRV8KVqBEoqJKT8UKbAEzMAIjkEEyQCpqsgC0rEAB+pIjBSsmZ6wIoeQaK/L5v/vns5IxcGQD6zM+wNO11OzcnOiEJ0Dv0I68RSH7J2AXaF4B7L29N532mIYAM6AC1p7QGdgAj1SAzs+B2q36vgO5W31z0Q4aATmQE4Uql4Ou+BogseYu1PtQJAF6HwrwO8ANWFhKNORcgaXy2mO6BY7AyiDwKeUCHIDSByTqdh+P/R9EF/H/gBdz+CUZeOsyDwAAAABJRU5ErkJggg=="/></a></li>
+                        <li>Impacta <a href="certificados/impacta-6h.pdf" download="impacta-6h.pdf" type="application/pdf" class="lista"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMNJREFUSEvtlbENwjAQRV8KVqBEoqJKT8UKbAEzMAIjkEEyQCpqsgC0rEAB+pIjBSsmZ6wIoeQaK/L5v/vns5IxcGQD6zM+wNO11OzcnOiEJ0Dv0I68RSH7J2AXaF4B7L29N532mIYAM6AC1p7QGdgAj1SAzs+B2q36vgO5W31z0Q4aATmQE4Uql4Ou+BogseYu1PtQJAF6HwrwO8ANWFhKNORcgaXy2mO6BY7AyiDwKeUCHIDSByTqdh+P/R9EF/H/gBdz+CUZeOsyDwAAAABJRU5ErkJggg=="/></a></li>
                     </ol>
-                <li>
+                <li class="lista">
                     <h3>GitHub</h3>
                 <li>
-                    <a href="certificados/Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" download="Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" type="application/pdf">Curso em vídeo - Git e GitHub</a>
+                    Curso em vídeo - Git e GitHub <button><a href="certificados/Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" download="Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" type="application/pdf" class="lista"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMNJREFUSEvtlbENwjAQRV8KVqBEoqJKT8UKbAEzMAIjkEEyQCpqsgC0rEAB+pIjBSsmZ6wIoeQaK/L5v/vns5IxcGQD6zM+wNO11OzcnOiEJ0Dv0I68RSH7J2AXaF4B7L29N532mIYAM6AC1p7QGdgAj1SAzs+B2q36vgO5W31z0Q4aATmQE4Uql4Ou+BogseYu1PtQJAF6HwrwO8ANWFhKNORcgaXy2mO6BY7AyiDwKeUCHIDSByTqdh+P/R9EF/H/gBdz+CUZeOsyDwAAAABJRU5ErkJggg=="/></a></button>
                 </li>
                 <li>
                     <h3>HTML5 e CSS3</h3>
                 </li>
                 <li>
-                    <a href="certificados/curso-html5-e-css3-modulo-1.pdf" download="curso-html5-e-css3-modulo-1.pdf" type="application/pdf">HTML5 e CSS3 - Mundo 1</a>
+                    HTML5 e CSS3 - Mundo 1 <a href="certificados/curso-html5-e-css3-modulo-1.pdf" download="curso-html5-e-css3-modulo-1.pdf" type="application/pdf" class="lista"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMNJREFUSEvtlbENwjAQRV8KVqBEoqJKT8UKbAEzMAIjkEEyQCpqsgC0rEAB+pIjBSsmZ6wIoeQaK/L5v/vns5IxcGQD6zM+wNO11OzcnOiEJ0Dv0I68RSH7J2AXaF4B7L29N532mIYAM6AC1p7QGdgAj1SAzs+B2q36vgO5W31z0Q4aATmQE4Uql4Ou+BogseYu1PtQJAF6HwrwO8ANWFhKNORcgaXy2mO6BY7AyiDwKeUCHIDSByTqdh+P/R9EF/H/gBdz+CUZeOsyDwAAAABJRU5ErkJggg=="/></a>
                 </li>
             </ul>
         </section>
@@ -102,12 +103,12 @@
         </section>
         <section id="Redes">
             <h2>Redes Sociais</h2>
-            <nav>
+            <nav class="lista">
                 <ul>
                     <!-- o parâmetro _blank permite ao usuário entrar nas redes sociais em uma nova aba. -->
-                    <li><a href="https://github.com/gabealbuquerque" target="_blank" rel="external">GitHub</a></li>
-                    <li><a href="https://br.linkedin.com/in/gabrieldealbuquerquevasconcelos" target="_blank" rel="external">LinkedIn</a></li>
-                    <li><a href="mailto:eugabrieldealbuquerque@gmail.com">Email</a></li>
+                    <li>GitHub<a href="https://github.com/gabealbuquerque" target="_blank" rel="external" class="lista"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjJJREFUSEvF1UnoTlEYBvDfH0XGjaWpDCEJkSQskFKSIfPesFBkKLITGUJWlJ1MGaNs2IkkkjImkrKQnazM59X56nS7t/+X+vqfun3fPec97/O8z/Oec7t0eHR1OL8eAxiN7ZiDSTQS+YPnuIcTeFtVpK6CTTiJPviIh3jdIOU0TMFw/MAWnCljqwDTc8KXWIZ3bXoUVd7ECMzA09a+KsA1LMZ4fGgj+UCcxoP8PE4V3cCKJoBIGuwDpBy9sBAT8QuvcBfjsnwBMBsBMBSjmgC+4hw2F9lD30uYVQENY9eif4r/nJoi9oYCizCgCeA3jmJXDgjm9zOjHYnlHfTO1RzOXTMX0U0xgsjKHPNvoupBBB7EnrxhVd4Uv5crFaxOXl1Mhi7NBsfyhSRfzAexRoBgtjuvx/+dGIRvFYDQ+ktq5/3Jl315LeRdVxKvqyAOzLa84VCWa0jWuMRoARxIZ2BvXjiLDd0BHM+nOPZEu13Jul6tVBBMg3EpUbyv6c6DsoKWySOzVGFynPAFqVOOpC56g3kVkwOwX5MHoXOw2FiwHZbNjD4vR6tNPxWT0abzEZLWmhyXVTx1By2YLUkd9h23catg3sr3BIMTybFNAMF+eWrNCW1eFWVFk9P99Syd7vOJ5PomgKmJZbCIwDD4fUWWptdIfh3h1cyco1aimGxd12HwoyxJzP/Ei3QQ+2JMNjvm46qIWzjWt+JUyaLpi/Y/H5xjddd7j30y25S++7COV/AXtvZzGaMome0AAAAASUVORK5CYII="/></a></li>
+                    <li>LinkedIn<a href="https://br.linkedin.com/in/gabrieldealbuquerquevasconcelos" target="_blank" rel="external" class="lista"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASxJREFUSEvl1TsvBFEYh/HfCp2Igso3oNXoKFQKIa6hk/AtJD6GS4m4h0InLo1G7xPoRKUl7Elem81erZndxlQzOe88z5z/Oe+cgjZfhTbzdVxwh/GMs7rHxA+jcgZfGeFV3EaC66ie+oO0xK0nOMBqgA+x3KKkqWAX6wHdw1regnfsowsr6M1b8IrngA5jsLgzHuJ5CP3YxgdGMFfxAU0jOsZSvHSERUo9M4MnvJRBN4vjW2XPTQUnAU3vJNlCxFVvG3fjDX0hySTowRVGQ5waK12PGMtDkLr0NkA72Ij7S0znIUhrcBGgWlGmoaYRncb0U3GCzCPl/IlZnIfgLMbK6/6JoFGjDURzpShq1f0qohb/DFXldRc5jwPnBpM/yo4fmVmjqZ9V7uQAfgNR+VIZag7oTQAAAABJRU5ErkJggg=="/></a></li>
+                    <li>Email<a href="mailto:eugabrieldealbuquerque@gmail.com" class="lista"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUlJREFUSEvd1T8ohWEUx/GPJIPBZJBSMmCwW2xGpbBSNmVSBhbJRCmTsilWfxaZbBYzA5OQMpgMBsmfe/S8um73ute93eWe5an3vM/5nt/vvM/zNqlzNNW5vsYCjGEN/TXadoUFnESdfIse0FVj8Wz7DXoLAZ8pO4DrKkGhPhT81M5XkAFeMI3Df0LGsYu2coCs7gYW8V4G1JxmF77nx3fzxRTMYButOMMEnkpAOnCAYbxiFjvlFAR0EMfoxiNC/nkBZCjZ2Il7jOaauURmdUkFmap27GMEb5jHVoLMYRMtOMVkLv+cchUDMgtXsJw276V1Kq2RW83rOh7/C5C5EipCTaiKiG6j6+i+MKoCRJEeHOXUfKSZ3JYYfNWASo9FAwPu0ndfqRV/vRfziZn9OslxXa+jr0bCRe5ULxW7rmusW3x7Y/0y62LRF2qEQhkl8rgIAAAAAElFTkSuQmCC"/></a></li>
                 </ul>
             </nav>
         </section>
@@ -116,24 +117,24 @@
             <form method="post" class="formCreate">
                 <!-- Através da tag form foi possível criar um formulário para o usuário entrar em contato com Gabriel. -->
                 <p>Preencha os campos abaixo para entrar em contato: </p>
-                <label for="name">Nome</label>
+                <label for="name" class="form-titulo">Nome</label>
                 <input type="text" placeholder="Digite o seu nome" id="name" required><br>
-                <label for="assunto">Assunto</label>
+                <label for="assunto" class="form-titulo">Assunto</label>
                 <input type="text" placeholder="Digite o assunto" id="assunto" required><br>
-                <label for="mensagem">Mensagem</label><br>
+                <label for="mensagem" class="form-titulo">Mensagem</label><br>
                 <textarea name="mensagem" id="mensagem" rows="4" required></textarea><br>
                 <button type="submit">Enviar</button>
             </form>
         </section>
     </main>
+    <hr>
     <footer>
         <section id="Navegacao">
             <h2>Navegue pelas páginas</h2>
             <nav>
-                <ul>
-                    <li><a href="portfolio-iago.html">Portfólio do Iago</a></li>
-                    <li><a href="pagina-inicial.html">Página Inicial</a></li>
-                </ul>
+                <button><a href="portfolio-iago.html">PORTFÓLIO DO IAGO</a></button>
+                <button><a href="pagina-inicial.html">PÁGINA INICIAL</a></button>
+                <button><a href="portfolio-gabriel.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARVJREFUSEvt1D8vBFEUhvHfiohKsoVCrUBItiC0VHR8AB9AVPqNTi8qH0D0dFTURCERoVArFBKViAg3mUl2JrPzx8xWTHUn95znyXtucloG/LUGzPe3BMO4xheW8FlmvFVGtIduBA3n3SYF87jCUAQNKRZxUyQpk2AUd5hMwZ4wh/c8SRnBIbb6QMLddh3BKs4KxrCG8341eQnaeMR4geAFU3jNqssTnGC96BGj+1NsVBFs/jzqUUl4XBZ6jtM9WQkm8ICxioI3TOO5ty9LcIHlivC4/BIreYId7P8SHrcFxkH805sgxLvFSE3BBzrRmBPrOiyyhZrwuD2wwipJCO4x05AgsGbTgobYSUyZXVRL/C8oHN836tckGdkQQBkAAAAASUVORK5CYII="/></a></button>
             </nav>
         </section>
     </footer>
