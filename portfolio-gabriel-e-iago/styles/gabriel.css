@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #aba9bf36;
+    background-color: #aba9bf62;
     padding: 3px;
     margin: 10px;
 }
@@ -9,12 +19,13 @@ header, footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
 p {
+    font: 1em 'Fjord One';
     color: #4E598C;
     text-align: justify;
+
 }
 
 a {
@@ -23,17 +34,29 @@ a {
 }
 
 h1, h2 {
+    /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            */
+    font: bolder 2em 'Josefin Sans';
     color: #373D20;
     text-align: center;
 }
 
 
 h3, h4 {
+    font: bolder 1.3em 'Domine';
     color: #5c5f46;
+/* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            */
 }
 
+.lista {
+    font-style: normal;
+}
 
-.lista, li {
+li {
+    font-style: italic;
     color: #6b6850;
 }
 
@@ -50,10 +73,9 @@ abbr {
 }
 
 .imagem-gabriel {
-   width: 300px;
-   height: 300px;
-   margin: 95px;
-}
+    
+    margin: 95px;
+ }
 
 #experiencia {
     background-color: #5c5f46;
@@ -70,5 +92,9 @@ button {
     margin: 3px;
     background-color: #aba9bf00;
     border: none;
+    font: bolder 1em 'Domine';
 }
 
+button:active {             
+    transform: scale(0.95); /* Dá um efeito de "apertar" o botão */
+}
