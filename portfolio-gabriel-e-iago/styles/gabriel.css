@@ -32,6 +32,29 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: white;
+    font-weight: bold;
+}
+
+.lista:visited {
+    color: #2d311a;
+}
+
+.lista:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.lista:active {
+    color: white;
+    font-weight: bold;
+}
+
 h1 {
     /* shorthand font
             - font-style -> font-weight -> font-size -> font-family
@@ -117,9 +140,6 @@ button:hover {
     border-radius: 3px;
 }
 
-a:hover {
-    color: #ffffff;
-}
 
 .Sobre2 {
     text-indent: 20px;
