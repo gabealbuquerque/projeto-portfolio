@@ -23,21 +23,21 @@ header, footer {
 
 p {
     font: 1em 'Fjord One';
-    color: #4E598C;
+    color: white;
     text-align: justify;
 }
 
 a {
-    color: #4E598C;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 a:active {
-    color: white;
+    color: grey;
     font-weight: bold;
 }
 
@@ -46,12 +46,12 @@ a:active {
 }
 
 .lista:hover {
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
 .lista:active {
-    color: white;
+    color: red;
     font-weight: bold;
 }
 
@@ -85,9 +85,10 @@ h4 {
 
 
 li {
-    color: #6b6850;
+    color: white;
     font-style: normal;
 }
+
 
 abbr, .italico {
     text-decoration: none;
@@ -96,7 +97,7 @@ abbr, .italico {
 
 abbr:hover {
     background-color: #4E598C;
-    color: rgba(255, 255, 255, 0.727);
+    color: black;
 }
 
 
@@ -109,8 +110,7 @@ abbr:hover {
 }
 
 .imagem-gabriel {
-    
-    margin: 95px;
+    margin: 20px auto 20px auto;
  }
 
 #experiencia {
@@ -142,4 +142,3 @@ button:active {
 div {
     text-align: center;
 }
-
