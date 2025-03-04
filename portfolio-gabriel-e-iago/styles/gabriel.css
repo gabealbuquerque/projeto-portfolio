@@ -33,6 +33,21 @@ header, footer {
     justify-content: space-between;
 }
 
+main {
+    background-color: var(--cor3);
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 280px;
+    max-width: 800px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+}
+
 p {
     font: 1em var(--fonte-paragrafo);
     color: var(--cor2);
@@ -76,6 +91,7 @@ h1 {
 h2 {
     font: bolder 1.5em var(--fonte-titulo);
     color: var(--cor2); 
+    text-align: center;
 }
 
 h3 {
@@ -120,9 +136,6 @@ abbr:hover {
     color: var(--cor2);
 }
 
-.imagem-gabriel {
-    margin: 20px auto 20px auto;
- }
 
 #experiencia {
     background-color: #5c5f46;
@@ -160,3 +173,4 @@ button:active {
 div {
     text-align: center;
 }
+
