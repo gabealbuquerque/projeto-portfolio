@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ledger&display=swap');
+
+:root {
+    --cor0: #32408C;
+    --cor1: #697FBF;
+    --cor2: #D5E5F2;
+    --cor3: #899FCE;
+
+    --fonte-paragrafo: 'Ledger', serif;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+header button {
+    background-color: var(--cor0);
+    border: 0px;
+    font-size: 1.1em;
+    margin: 2px;
+    padding: 2px;
+}
+
+header button:hover {
+    color: var(--cor0);
+}
+
+header button:active {
+    color: var(--cor3);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+header > nav {
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+}
+
+main li {
+    
+}
+
+main abbr {
+    text-decoration: none;
+}
+
+p {
+    font-family: var(--fonte-paragrafo);
+    color: var(--cor);
+}
+
+footer > aside {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+footer a:hover {
+
+}

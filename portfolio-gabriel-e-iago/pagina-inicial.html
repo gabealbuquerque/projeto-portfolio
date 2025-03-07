@@ -6,18 +6,19 @@
     <title>Portfólio</title>
     <!-- Foi utilizado a tag link favicon para adicionar o favicon da faculdade impacta na aba de navegação do portfolio. -->
     <link rel="shortcut icon" href="imagens/imagens-impacta/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/inicial.css">
 </head>
 <body>
     <header>
         <!-- Dentro do cabeçalho há um bloco de navegação que permite o usuário navegar entre os tópicos da própria página. O logotipo da Impacta possui navegação para a página inicial em todas as páginas. -->
+          <a href="pagina-inicial.html"><img src="imagens/imagens-impacta/impacta2-logo.png" alt="Logo Faculdade Impacta Tecnologia" height="50px" width="180px"></a>
         <nav>
-            <a href="pagina-inicial.html"><img src="imagens/imagens-impacta/impacta2-logo.png" alt="Logo Faculdade Impacta Tecnologia" height="50px" width="180px"></a>
-            <a href="#Grupo">Grupo</a>
-            <a href="#Projeto">Sobre</a>
-            <a href="#Divisao">Organização</a>
-            <a href="#Requisitos">Requisitos</a>
-            <a href="portfolio-gabriel.html">Portfólio do <strong>Gabriel</strong></a>
-            <a href="portfolio-iago.html"><strong>Portfólio do Iago</strong></a>
+            <button><a href="#Grupo">Grupo</a></button>
+            <button><a href="#Projeto">Sobre</a></button>
+            <button><a href="#Divisao">Organização</a></button>
+            <button><a href="#Requisitos">Requisitos</a></button>
+            <button><a href="portfolio-gabriel.html">Portfólio do <strong>Gabriel</strong></a></button>
+            <button><a href="portfolio-iago.html"><strong>Portfólio do Iago</strong></a></button>
         </nav>
     </header>
     <main>
@@ -27,7 +28,7 @@
         <section id="Grupo">
             <!-- As tags abbr indicam o significado de uma determinada sigla ou tag de forma oculta -->
             <h1>Portfólio - Grupo 4</h1>
-            <p>Seja bem-vindo! Este é um projeto desenvolvido durante as aulas de Desenvolvimento WEB. O site foi projetado pelos estudantes <mark>Gabriel de Albuquerque Vasconcelos</mark> e <mark>Iago Rozales Mahiques</mark> do curso de <abbr title="Análise e Desenvolvimento de Sistemas">ADS</abbr> da <abbr title="Faculdade Impacta Tecnologia">FIT</abbr>.</p>
+            <p>Seja bem-vindo! Este é um projeto desenvolvido durante as aulas de Desenvolvimento WEB. O site foi projetado pelos estudantes Gabriel de Albuquerque Vasconcelos e Iago Rozales Mahiques do curso de <abbr title="Análise e Desenvolvimento de Sistemas">ADS</abbr> da <abbr title="Faculdade Impacta Tecnologia">FIT</abbr>.</p>
         </section>
         <article id="Projeto">
             <h2>Sobre o Projeto</h2>
@@ -72,13 +73,9 @@
     </main>
     <footer>
         <!-- Dentro do rodapé da página inicial, foi deixado 2 links para permitir ao usuário navegar ao portfólio do Gabriel e do Iago. -->
-        <section id="Navegacao">
-            <h2>Como posso acessar o portfólio?</h2>
-            <p>Você pode acessar o portfólio clicando em um dos links abaixo: </p>
-                <ul>
-                    <li><a href="portfolio-gabriel.html">Portfólio do Gabriel</a></li>
-                    <li><a href="portfolio-iago.html">Portfólio do Iago</a></li>
-                </ul>
+            <aside>
+                Desenvolvido por <a href="portfolio-gabriel.html" target="_blank" rel="external">Gabriel de A. Vasconcelos</a> e <a href="portfolio-iago.html" rel="self">Iago R. Mahiques</a>.
+            </aside>
         </section>
     </footer>
 </body>

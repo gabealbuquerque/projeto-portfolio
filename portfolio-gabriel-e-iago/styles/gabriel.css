@@ -27,7 +27,6 @@ body {
 }
 
 header {
-    border-radius: 8px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
