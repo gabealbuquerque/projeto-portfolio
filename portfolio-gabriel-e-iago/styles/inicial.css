@@ -18,6 +18,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 10px;
+    align-items: center;
 }
 
 header button {
@@ -28,12 +29,8 @@ header button {
     padding: 2px;
 }
 
-header button:hover {
-    color: var(--cor0);
-}
-
 header button:active {
-    color: var(--cor3);
+    transform: scale(0.95);
 }
 
 header a {
@@ -42,24 +39,65 @@ header a {
     font-weight: bold;
 }
 
+header a:hover {
+    color: var(--cor3);
+}
+
+header a:active {
+    color: var(--cor1);
+}
+
 header > nav {
     margin: 4px;
     padding: 2px;
     text-align: center;
 }
 
-main li {
-    
+#foto-impacta {
+    padding: 1px;
+    margin: 1px;
 }
+
+main {
+    background-color: var(--cor3);
+    border-radius: 8px;
+    padding: 12px;
+    margin: 4px;
+
+}
+
+main h1, h2 {
+    color: var(--cor0);
+}
+
 
 main abbr {
-    text-decoration: none;
+    text-decoration: none;  
 }
 
-p {
-    font-family: var(--fonte-paragrafo);
-    color: var(--cor);
+#Grupo abbr:hover {
+    border-radius: 2px 4px;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    font-weight: bold;
 }
+
+#Projeto abbr:hover {
+    border-radius: 2px 4px;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+main p {
+    font-family: var(--fonte-paragrafo);
+    color: var(--cor0);
+}
+
+
+
+
+
 
 footer > aside {
     text-align: center;
@@ -67,10 +105,9 @@ footer > aside {
 
 footer a {
     text-decoration: none;
-    color: var(--cor1);
+    color: var(--cor2);
     font-weight: bold;
 }
 
-footer a:hover {
 
-}
+
