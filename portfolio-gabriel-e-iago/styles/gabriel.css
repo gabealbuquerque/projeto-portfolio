@@ -38,6 +38,20 @@ header nav {
     text-align: center;
 }
 
+header a {
+    color: var(--cor0);
+    font-weight: none;
+}
+
+header a:hover {
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+header a:active {
+    color: var(--cor3);
+}
+
 footer {
     border-radius: 8px;
     flex-direction: row;
@@ -56,6 +70,22 @@ footer aside {
 footer nav {
     text-align: center;
 }
+
+footer a {
+    color: var(--cor0);
+    font-weight: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+footer a:active {
+    color: var(--cor3);
+}
+
+
 
 
 
@@ -96,12 +126,12 @@ p {
 a {
     color: var(--cor2);
     text-decoration: none;
-    font-weight: bold;
 }
 
 a:hover {
-    color: var(--cor0);
+    color: var(--cor2);
     transition-duration: 0.4s;
+    font-weight: bold;
 }
 
 a:active {
