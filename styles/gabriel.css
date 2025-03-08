@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
+
+:root {
+        --cor0: #8BA9C7;
+        --cor1: #7CBBFA;
+        --cor2: #d4dfe9;
+        --cor3: #445261;
+        --cor4: #1A2633;
+
+    --fonte-menu: 'Domine', sans-serif;
+    --fonte-paragrafo: 'Fjord One', serif;
+    --fonte-titulo: 'Lexend Exa', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:  var(--cor4);
+    padding: 3px;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding: 2px;
+}
+
+header nav {
+    text-align: center;
+}
+
+header a {
+    color: var(--cor0);
+    font-weight: none;
+}
+
+header a:hover {
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+header a:active {
+    color: var(--cor3);
+}
+
+footer {
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+footer aside {
+    text-align: center;
+    font: 1em var(--fonte-paragrafo);
+    color: var(--cor2);
+    line-height: 1.5;
+    padding: 20px;
+}
+
+footer nav {
+    text-align: center;
+}
+
+footer a {
+    color: var(--cor0);
+    font-weight: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+footer a:active {
+    color: var(--cor3);
+}
+
+
+
+
+
+main {
+    background-color: var(--cor3);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 280px;
+    max-width: 600px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+main strong {
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+
+
+p {
+    font: 1em var(--fonte-paragrafo);
+    color: var(--cor2);
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+a {
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cor2);
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+a:active {
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+.lista:hover {
+    color:var(--cor0);
+    text-decoration: underline;
+}
+
+.lista:active {
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+h1 {
+    /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            */
+    font: bolder 2em var(--fonte-titulo);
+    color: var(--cor2);
+    text-align: center;
+}
+
+h2 {
+    font: bolder 1.5em var(--fonte-titulo);
+    color: var(--cor2); 
+    text-align: center;
+}
+
+h3 {
+    font: bolder 1.3em var(--fonte-titulo);
+    color: var(--cor4);
+/* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            */
+}
+
+h4 {
+    font: bolder 1.2em var(--fonte-titulo);
+    color: var(--cor0);
+}
+
+li {
+    color: var(--cor0);
+    font-style: normal;
+    line-height: 1.2em;
+}
+
+.destaque {
+    color: var(--cor2);
+}
+
+
+abbr, .italico {
+    text-decoration: none;
+    font-style: italic;
+}
+
+abbr:hover {
+    background-color: var(--cor0);
+    color: var(--cor4);
+    border-radius: 5px 0px 5px 0px;
+    padding: 1.5px;
+    font-weight: bold;
+}
+
+.link-portfolio {
+    color: var(--cor2);
+}
+
+.form-titulo {
+    color: var(--cor2);
+}
+
+
+#experiencia {
+    background-color: #5c5f46;
+    border-radius: 8px;
+}
+
+#foto-impacta {
+    padding: 1px;
+    margin: 1px;
+}
+
+button {
+    padding: 3px;
+    margin: 3px;
+    background-color: #aba9bf00;
+    border: none;
+    font: bolder 1em var(--fonte-menu);
+    color: var(--cor2);
+}
+
+button:hover {
+    color: var(--cor0);
+}
+
+button:active {             
+    transform: scale(0.95); /* Dá um efeito de "apertar" o botão */
+    color: var(--cor1);
+}
+
+.Sobre2 {
+    text-indent: 20px;
+}
+
+div {
+    text-align: center;
+}
