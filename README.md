@@ -1,5 +1,5 @@
 <h1> Portfólio - Projeto Impacta </h1>
-Portfólio contendo Projeto de Portfólio desenvolvido pelos estudantes Gabriel e Iago da Faculdade Impacta durante as aulas de **Desenvolvimento WEB**
+Portfólio contendo Projeto de Portfólio desenvolvido pelos estudantes Gabriel e Iago da Faculdade Impacta durante as aulas de Desenvolvimento WEB
 <h2>Como foi desenvolvido o Portólfio?</h2>
 Na 1ª entrega, o portfólio foi feito somente em HTML, obtendo nota 10. Na 2ª entrega, o portfólio foi aprimorado utilizando tags CSS
 <h2>Qual o principal fator a ser considerado durante o Projeto?</h2>
