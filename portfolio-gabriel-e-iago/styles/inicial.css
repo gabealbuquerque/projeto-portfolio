@@ -126,11 +126,10 @@ main a {
 main a:hover {
     text-decoration: underline;
     font-weight: bold;
-    color: var(--cor2);
 }
 
 main a:active {
-    color: var(--cor1);
+    color: var(--cor2);
 }
 
 main li {
@@ -176,3 +175,16 @@ footer > aside > button{
     padding: 6px;
 }
 
+footer > aside > a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+footer > aside > a:hover {
+    font-weight: bold;
+}
+
+
+footer > aside > a:active {
+    color: var(--cor3);
+}
