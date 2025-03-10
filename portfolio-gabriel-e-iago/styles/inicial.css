@@ -69,10 +69,15 @@ header > nav {
 
 main {
     background-color: var(--cor3);
-    border-radius: 8px;
-    padding: 12px;
-    margin: 4px;
-
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 280px;
+    max-width: 600px;
+       
 }
 
 main h1, h2 {
@@ -93,7 +98,6 @@ main abbr {
 }
 
 #Projeto abbr:hover {
-    border-radius: 2px 4px;
     background-color: var(--cor1);
     color: var(--cor2);
     font-weight: bold;
@@ -101,9 +105,13 @@ main abbr {
     padding: 1.5px;
 }
 
-#Requisitos abbr {
-    color: var(--cor0);
-}
+#Requisitos > p > abbr:hover {
+        background-color: var(--cor1);
+        color: var(--cor2);
+        font-weight: bold;
+        border-radius: 5px 0px 5px 0px;
+        padding: 1.5px;
+    }
 
 main p {
     font-family: var(--fonte-paragrafo);
@@ -134,7 +142,12 @@ main span {
     color: var(--cor0);
 }
 
-
+main img {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
 
 /* FOOTER */
 
