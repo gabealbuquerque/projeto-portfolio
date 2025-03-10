@@ -94,20 +94,40 @@ main p {
     color: var(--cor0);
 }
 
+main a {
+    text-decoration: none;
+    color: var(--cor0);
+}
 
+main a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: var(--cor0);
+}
 
-
+main a:active {
+    color: var(--cor2);
+}
 
 
 footer > aside {
     text-align: center;
+    color: var(--cor2);
 }
 
 footer a {
     text-decoration: none;
     color: var(--cor2);
-    font-weight: bold;
+    
 }
 
+footer a:hover {
+    font-weight: bold;
+    color: var(--cor3);
+}
+
+footer a:active {
+    color: var(--cor1);
+}
 
 
