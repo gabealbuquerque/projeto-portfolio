@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Gabriel</title>
+    <link rel="shortcut icon" href="imagens/imagens-impacta/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/gabriel.css">
+</head>
+<body>
+    <header>
+        <!-- Bloco de navegção dentro do cabeçalho -->
+        <a href="pagina-inicial.html"><img src="imagens/imagens-impacta/impacta2-logo.png" alt="Logo Faculdade Impacta Tecnologia" height="50px" width="180px" id="foto-impacta"></a>
+        <nav>
+            <button><a href="#Sobre">SOBRE</a></button>
+            <button><a href="#Experiencia">EXPERIÊNCIA</a></button>
+            <button><a href="#Academico">FORMAÇÃO</a></button>
+            <button><a href="#Certificados">CERTIFICADOS</a></button>
+            <button><a href="#Idiomas">IDIOMAS</a></button>
+            <button><a href="#Redes">REDES</a></button>
+            <button><a href="#Contato">CONTATO</a></button>
+            <button><a href="iago.html">PORTFÓLIO IAGO</a></button>
+            <button><a href="index.html">PÁGINA INICIAL</a></button>
+            <button><a href="#Navegacao"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-square-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0"/>
+              </svg></a></button>
+        </nav>
+    </header>
+    <main>
+        <section id="Gabriel">
+            
+            <h1>Portfólio - Gabriel</h1>
+            <!-- Imagem flexível de Gabriel feita através da tag picture e source type -->
+            <picture>
+                <source media="(max-width: 600px)" srcset="imagens/imagens-gabriel/perfil-400px.jpg">
+                <img src="imagens/imagens-gabriel/perfil-600px.jpg" alt="Imagem Gabriel">
+            </picture>
+        </section>
+        <article id="Sobre">
+            <!-- Uso de abbr para explicar siglas como Prodesp, ADS e Python. -->
+            <h2>Quem é Gabriel?</h2>
+            <p class="Sobre2">Gabriel de Albuquerque Vasconcelos é digitador de dados da <abbr title="Empresa de informática do Governo do Estado de São Paulo" class="em-italico">Prodesp</abbr>. Com 19 anos, iniciou seus estudos na Faculdade Impacta, <br>escolhendo o curso de <abbr title="Análise e Desenvolvimento de Sistemas" class="em-italico">ADS</abbr>. Em seu 1º semestre, para complementar seus estudos na sala de aula, realizou mais de 200h em cursos extracurriculares de linguagem <abbr title="Linguagem de Programação de alto nível" class="em-italico">Python</abbr>.</p>
+        </article>
+        <section id="Experiencia">
+            <h2>Experiência</h2>
+            <h3>Digitador</h3>
+            <p>Prodesp - Terceirizado <br>maio de 2024 - o momento <br>São Paulo, Brasil - Presencial</p>
+            <!-- Uso de listas não ordenadas para exemplicar as funções e rotinas do trabalho. -->
+            <ul>
+                <li><span class="destaque">Análise e verificação de processos <span class="italico">(medida protetiva, mandado de prisão, alvará de soltura, folha de antecedente e certidão)</span></span></li>
+                <li><span class="destaque">Cadastro e atualização de RG criminal</span></li>
+                <li><span class="destaque">Cadastro e atualização de folha de antecedentes, inquérito e captura</span></li>
+                <li><span class="destaque">Envio de folha de antecedentes à autoridade</span></li>
+            </ul>
+        </section>
+        <section id="Academico">
+            <h2>Formação acadêmica</h2>
+            <h3>Impacta Tecnologia</h3>
+            <p>Curso Superior Tecnólogo em Análise e Desenvolvimento de Sistemas <br> agosto de 2024 - dezembro de 2026</p>
+            <!-- Uso de listas para mostrar as tecnologias utilizadas no curso superior. -->
+            <h4>Tecnologias</h4>
+                <ol type="i">
+                <li><span class="destaque">Python <span class="italico">(back-end)</span></span></li>
+                <li><span class="destaque">JavaScript <span class="italico">(front-end)</span></span></li>
+                <li><span class="destaque">Kotlin <span class="italico">(app)</span></span></li>
+                <li><span class="destaque">Linguagem SQL <span class="italico">(banco de dados)</span></span></li>
+                <li><span class="destaque">AWS <span class="italico">(nuvem)</span></span></li>
+                </ol>
+            <h3>ETEC - Escola Técnica Estadual de São Paulo</h3>
+            <p>Curso técnico em Administração <br>fevereiro de 2020 - dezembro de 2022</p>
+            <p>Curso técnico em administração integrado ao ensino médio</p>
+        </section>
+        <section id="Certificados">
+            <h2>Licenças e certificados</h2>
+            <ul>
+                <li>
+                    <h3>Python</h3>
+                </li>
+                    <ol type="i">
+                        <!-- o parâmetro dowload junto ao formato .zip permite ao usuário baixar os certificados de Gabriel em seu computador. Dentro do arquivo .zip há mais de 1 certificado do respectivo curso. -->
+                        <li><a href="certificados/huawei-basico-ao-avancado.zip" download="huawei-basico-ao-avancado.zip" type="application.zip" class="lista">Huawei - básico ao avançado</a></li>
+                        <li><a href="certificados/curso-em-video-modulo-1-ao-3.zip" download="curso-em-video-modulo-1-ao-3.zip" type="application/zip" class="lista">Curso em Vídeo - mundo 1 ao 3</a></li>
+                        <li><a href="certificados/impacta-6h.pdf" download="impacta-6h.pdf" type="application/pdf" class="lista">Impacta</a></li>
+                    </ol>
+                <li>
+                    <h3>GitHub</h3>
+                <li class="lista">
+                    <a href="certificados/Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" download="Gabriel-de-Albuquerque-Vasconcelos-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" type="application/pdf" class="lista">Curso em vídeo - Git e GitHub</a>
+                </li>
+                <li>
+                    <h3>Html5 e Css3</h3>
+                </li>
+                <li class="lista">
+                    <a href="certificados/curso-html5-e-css3-modulo-1.pdf" download="curso-html5-e-css3-modulo-1.pdf" type="application/pdf" class="lista">HTML5 e CSS3 - Mundo 1</a>
+                </li>
+            </ul>
+        </section>
+        <section id="Idiomas">
+            <h2>Idiomas</h2>
+            <ul>
+                <li><span class="destaque">Português - C2</span></li>
+                <li><span class="destaque">Francês - B1</span></li>
+                <li><span class="destaque">Inglês - A1</span></li>
+            </ul>
+        </section>
+        <section id="Redes">
+            <h2>Redes Sociais</h2>
+            <nav>
+                <ul>
+                    <!-- o parâmetro _blank permite ao usuário entrar nas redes sociais em uma nova aba. -->
+                    <li><a href="https://github.com/gabealbuquerque" target="_blank" rel="external" class="lista">GitHub</a></li>
+                    <li><a href="https://br.linkedin.com/in/gabrieldealbuquerquevasconcelos" target="_blank" rel="external" class="lista">LinkedIn</a></li>
+                    <li><a href="mailto:eugabrieldealbuquerque@gmail.com" class="lista">Email</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="Contato">
+            <h2>Entre em contato</h2>
+            <form method="post" class="formCreate">
+                <!-- Através da tag form foi possível criar um formulário para o usuário entrar em contato com Gabriel. -->
+                <p>Preencha os campos abaixo para entrar em contato: </p>
+                <label for="name" class="form-titulo">Nome</label>
+                <input type="text" placeholder="Digite o seu nome" id="name" required><br>
+                <label for="assunto" class="form-titulo">Assunto</label>
+                <input type="text" placeholder="Digite o assunto" id="assunto" required><br>
+                <label for="mensagem" class="form-titulo">Mensagem</label><br>
+                <textarea name="mensagem" id="mensagem" rows="4" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <section id="Navegacao">
+            <h2>Navegue pelas páginas</h2>
+            <nav>
+                <button><a href="portfolio-iago.html">PORTFÓLIO DO IAGO</a></button>
+                <button><a href="pagina-inicial.html">PÁGINA INICIAL</a></button>
+                <button><a href="portfolio-gabriel.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+                    <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
+                  </svg></a></button>
+            </nav>
+            <aside>
+                Desenvolvido por <a href="#Sobre" rel="self">Gabriel de Albuquerque Vasconcelos</a>.
+            </aside>
+        </section>
+    </footer>
+</body>
+</html>
