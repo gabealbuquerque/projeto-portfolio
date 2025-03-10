@@ -13,6 +13,10 @@ body {
     background-color: var(--cor0);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* HEADER */
 
 header {
@@ -153,4 +157,9 @@ footer a:active {
     color: var(--cor1);
 }
 
+footer > aside > button{
+    background-color: var(--cor4);
+    border: none;
+    padding: 6px;
+}
 

@@ -45,7 +45,7 @@ header a {
 
 header a:hover {
     font-weight: bold;
-    
+    color: var(--cor0);
 }
 
 header a:active {
@@ -78,14 +78,16 @@ footer a {
 
 footer a:hover {
     font-weight: bold;
-    color: var(--cor2);
+    color: var(--cor0);
 }
 
 footer a:active {
     color: var(--cor3);
 }
 
-
+footer > aside > button{
+    padding: 6px;
+}
 
 
 
@@ -225,12 +227,13 @@ button {
     margin: 3px;
     background-color: #aba9bf00;
     border: none;
-    font: bolder 1em var(--fonte-menu);
+    font: 1em var(--fonte-menu);
     color: var(--cor2);
 }
 
 button:hover {
-    color: var(--cor0);
+    color: var(--cor2);
+    font-weight: bold;
 }
 
 button:active {             
