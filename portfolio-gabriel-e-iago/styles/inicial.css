@@ -2,7 +2,7 @@
 
 :root {
     --cor0: #32408C;
-    --cor1: #697FBF;
+    --cor1: #586a9f;
     --cor2: #D5E5F2;
     --cor3: #899FCE;
 
@@ -12,6 +12,8 @@
 body {
     background-color: var(--cor0);
 }
+
+/* HEADER */
 
 header {
     display: flex;
@@ -29,22 +31,22 @@ header button {
     padding: 2px;
 }
 
-header button:active {
+button:active {
     transform: scale(0.95);
 }
 
 header a {
     text-decoration: none;
     color: var(--cor2);
-    font-weight: bold;
+    
 }
 
 header a:hover {
-    color: var(--cor3);
+    font-weight: bold;
 }
 
 header a:active {
-    color: var(--cor1);
+    color: var(--cor3);
 }
 
 header > nav {
@@ -57,6 +59,9 @@ header > nav {
     padding: 1px;
     margin: 1px;
 }
+
+
+/* MAIN */
 
 main {
     background-color: var(--cor3);
@@ -76,7 +81,8 @@ main abbr {
 }
 
 #Grupo abbr:hover {
-    border-radius: 2px 4px;
+    border-radius: 5px 0px 5px 0px;
+    padding: 1.5px;
     background-color: var(--cor1);
     color: var(--cor2);
     font-weight: bold;
@@ -87,28 +93,46 @@ main abbr {
     background-color: var(--cor1);
     color: var(--cor2);
     font-weight: bold;
+    border-radius: 5px 0px 5px 0px;
+    padding: 1.5px;
+}
+
+#Requisitos abbr {
+    color: var(--cor0);
 }
 
 main p {
     font-family: var(--fonte-paragrafo);
-    color: var(--cor0);
+    color: var(--cor2);
 }
 
 main a {
     text-decoration: none;
-    color: var(--cor0);
+    color: var(--cor2);
 }
 
 main a:hover {
     text-decoration: underline;
     font-weight: bold;
-    color: var(--cor0);
-}
-
-main a:active {
     color: var(--cor2);
 }
 
+main a:active {
+    color: var(--cor1);
+}
+
+main li {
+    color: var(--cor1);
+    line-height: 1.2em;
+}
+
+main span {
+    color: var(--cor0);
+}
+
+
+
+/* FOOTER */
 
 footer > aside {
     text-align: center;
@@ -118,12 +142,11 @@ footer > aside {
 footer a {
     text-decoration: none;
     color: var(--cor2);
-    
 }
 
 footer a:hover {
     font-weight: bold;
-    color: var(--cor3);
+    
 }
 
 footer a:active {
